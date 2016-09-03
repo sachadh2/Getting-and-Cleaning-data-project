@@ -13,4 +13,5 @@ The code operates in the following steps
   * The columns names containing "meanFreq" are not extracted as they do not represent the mean of the variables of interest
 8. The activity_id numbers are replaced with the activity names corresponding to the "activity_labels.txt"
 9. The names of some of the columns are modified to look descriptive
-10. The mean data based on the subject and activity for all the data is obtained using aggregate
+10. The mean data for each subject and activity for all the variables is obtained using aggregate
+11. The final output is a text file "finaltidydata.txt" which contains the mean each variable for each subject and each activity
